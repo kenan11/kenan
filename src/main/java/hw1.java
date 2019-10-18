@@ -5,7 +5,7 @@ public class hw1 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         Random rb = new  Random();
-        System.out.print("Please enter your name :");
+        System.out.print("Please enter  your name :");
         String name = sc.nextLine();
         System.out.println("Let the game begin!");
         int number = rb.nextInt(100);
